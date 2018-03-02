@@ -1,0 +1,60 @@
+// Place all the styles related to the simple_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  padding-top: 50px;
+}
+
+h1 {
+  font-family: "Futura", serif;
+  color: #333;
+  align-align: center;
+}
+
+/**** Navigation ****/
+
+nav {
+  background-color: #161D2E;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20px 10px;
+}
+
+nav ul li {
+  list-style-type: none;
+  float: right;
+}
+
+nav ul li:first-child {
+  float: left;
+}
+
+nav ul li a {
+  color: #D7DADB;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  padding: 5px 3em;
+}
+
+nav a:hover {
+  color: #1AA9CE;
+  text-decoration: none;
+}
+
+/**** Footer ****/
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #161D2E;
+  color: #D7DADB;
+  text-align: center;
+}
